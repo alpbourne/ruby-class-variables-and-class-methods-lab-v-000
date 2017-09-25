@@ -2,6 +2,7 @@ class Song
   attr_reader :name :artist :genre
 
   @@count = 0
+  GENRES_A = []
 
   def initialize(name, artist, genre)
     @name = name
@@ -16,4 +17,5 @@ class Song
 
   def self.genres
     genres_a = []
+    if 
     
